@@ -12,8 +12,8 @@ public class Hello {
 		this.message = message;
 	}
 
-	public String say() {
-		return message;
+	public void say() {
+		System.out.println(message);
 	}
 }
 
